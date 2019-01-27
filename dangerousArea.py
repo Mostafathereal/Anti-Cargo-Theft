@@ -1,4 +1,5 @@
 import math
+# Dont lol
 def DangerousAreaCheck(lat, long):
     with open("HighRiskPlaces.txt") as f:
         coors = f.read().splitlines() 
