@@ -21,7 +21,7 @@ class gps():
         now = datetime.datetime.now()
         currentDay = now.strftime("%a")
         if (currentDay == 'Sat' or currentDay == 'Sun' or punchedOut):
-            self.triggerAccelerometer(long,lat)
+            print("Warning, truck started on day off")
         # do a dangerous area check
         if (dangerousArea.DangerousAreaCheck(long,lat)):
             print("Warning, entering dangerous area")
