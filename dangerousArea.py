@@ -20,10 +20,10 @@ def DangerousAreaCheck(lat, long):
             print("Heh, I'm in danger")
             return True
     return False
-## @brief returns if a point is r distance away from another
+## @brief returns if a point is within r distance away from another
 # @param dx difference in horizontal distance
 # @param dy difference in vertical distance
-# @param r the minimum distance 
+# @param r the maximum distance 
 # @return bool returns True if the point is within the distance False if not
 def distance(dx, dy, r):
     return math.sqrt(dx*dx + dy*dy) < r
