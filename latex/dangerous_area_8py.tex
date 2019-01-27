@@ -1,0 +1,91 @@
+\hypertarget{dangerous_area_8py}{}\subsection{dangerous\+Area.\+py File Reference}
+\label{dangerous_area_8py}\index{dangerousArea.py@{dangerousArea.py}}
+
+
+A file that checks if a truck is in.  
+
+
+\subsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \mbox{\hyperlink{dangerous_area_8py_aab1adfed8f032fa021fc9dc6fd585660}{dangerous\+Area.\+Dangerous\+Area\+Check}} (lat, long)
+\begin{DoxyCompactList}\small\item\em checks if coordinates are in any of the dangerous areas \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{dangerous_area_8py_a55b6adda0f005bf26d75047a34d80a82}{dangerous\+Area.\+distance}} (dx, dy, r)
+\begin{DoxyCompactList}\small\item\em returns if a point is within r distance away from another \end{DoxyCompactList}\item 
+def \mbox{\hyperlink{dangerous_area_8py_a78d1ff442a9436c0ce5a35c7429f5490}{dangerous\+Area.\+add\+Dangerous\+Area}} (lat, long, r)
+\begin{DoxyCompactList}\small\item\em adds a dangerous area to the file of dangerous areas \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsubsection{Detailed Description}
+A file that checks if a truck is in. 
+
+\begin{DoxyAuthor}{Author}
+Ryan, Ather, Chris and Mostafa 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+2019/01/26 
+\end{DoxyDate}
+
+
+\subsubsection{Function Documentation}
+\mbox{\Hypertarget{dangerous_area_8py_a78d1ff442a9436c0ce5a35c7429f5490}\label{dangerous_area_8py_a78d1ff442a9436c0ce5a35c7429f5490}} 
+\index{dangerousArea.py@{dangerousArea.py}!addDangerousArea@{addDangerousArea}}
+\index{addDangerousArea@{addDangerousArea}!dangerousArea.py@{dangerousArea.py}}
+\paragraph{\texorpdfstring{addDangerousArea()}{addDangerousArea()}}
+{\footnotesize\ttfamily def dangerous\+Area.\+add\+Dangerous\+Area (\begin{DoxyParamCaption}\item[{}]{lat,  }\item[{}]{long,  }\item[{}]{r }\end{DoxyParamCaption})}
+
+
+
+adds a dangerous area to the file of dangerous areas 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lat} & latitude of dangerous area \\
+\hline
+{\em long} & longitude of dangerous area \\
+\hline
+{\em r} & radius of the dangerous area \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{dangerous_area_8py_aab1adfed8f032fa021fc9dc6fd585660}\label{dangerous_area_8py_aab1adfed8f032fa021fc9dc6fd585660}} 
+\index{dangerousArea.py@{dangerousArea.py}!DangerousAreaCheck@{DangerousAreaCheck}}
+\index{DangerousAreaCheck@{DangerousAreaCheck}!dangerousArea.py@{dangerousArea.py}}
+\paragraph{\texorpdfstring{DangerousAreaCheck()}{DangerousAreaCheck()}}
+{\footnotesize\ttfamily def dangerous\+Area.\+Dangerous\+Area\+Check (\begin{DoxyParamCaption}\item[{}]{lat,  }\item[{}]{long }\end{DoxyParamCaption})}
+
+
+
+checks if coordinates are in any of the dangerous areas 
+
+
+\begin{DoxyParams}{Parameters}
+{\em lat} & a float that stores the latitude of the truck \\
+\hline
+{\em long} & a float that strores the longitude of a truck \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool True if truck is in a dangerous location False if it is not 
+\end{DoxyReturn}
+\mbox{\Hypertarget{dangerous_area_8py_a55b6adda0f005bf26d75047a34d80a82}\label{dangerous_area_8py_a55b6adda0f005bf26d75047a34d80a82}} 
+\index{dangerousArea.py@{dangerousArea.py}!distance@{distance}}
+\index{distance@{distance}!dangerousArea.py@{dangerousArea.py}}
+\paragraph{\texorpdfstring{distance()}{distance()}}
+{\footnotesize\ttfamily def dangerous\+Area.\+distance (\begin{DoxyParamCaption}\item[{}]{dx,  }\item[{}]{dy,  }\item[{}]{r }\end{DoxyParamCaption})}
+
+
+
+returns if a point is within r distance away from another 
+
+
+\begin{DoxyParams}{Parameters}
+{\em dx} & difference in horizontal distance \\
+\hline
+{\em dy} & difference in vertical distance \\
+\hline
+{\em r} & the maximum distance \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+bool returns True if the point is within the distance False if not 
+\end{DoxyReturn}

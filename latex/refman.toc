@@ -1,0 +1,29 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\contentsline {section}{\numberline {1}Class Index}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}Class List}{1}{subsection.1.1}
+\contentsline {section}{\numberline {2}File Index}{1}{section.2}
+\contentsline {subsection}{\numberline {2.1}File List}{1}{subsection.2.1}
+\contentsline {section}{\numberline {3}Class Documentation}{2}{section.3}
+\contentsline {subsection}{\numberline {3.1}Control\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Unit.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}gps Class Reference}{2}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Detailed Description}{2}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Member Function Documentation}{2}{subsubsection.3.1.2}
+\contentsline {paragraph}{\numberline {3.1.2.1}coordinatesRecieved()}{3}{paragraph.3.1.2.1}
+\contentsline {paragraph}{\numberline {3.1.2.2}distance()}{3}{paragraph.3.1.2.2}
+\contentsline {paragraph}{\numberline {3.1.2.3}OnTrack()}{3}{paragraph.3.1.2.3}
+\contentsline {subsection}{\numberline {3.2}Route.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}route Class Reference}{4}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Detailed Description}{4}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}Member Function Documentation}{5}{subsubsection.3.2.2}
+\contentsline {paragraph}{\numberline {3.2.2.1}avg()}{5}{paragraph.3.2.2.1}
+\contentsline {paragraph}{\numberline {3.2.2.2}getdata()}{5}{paragraph.3.2.2.2}
+\contentsline {section}{\numberline {4}File Documentation}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Control\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Unit.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}py File Reference}{5}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Detailed Description}{6}{subsubsection.4.1.1}
+\contentsline {subsection}{\numberline {4.2}dangerous\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Area.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}py File Reference}{6}{subsection.4.2}
+\contentsline {subsubsection}{\numberline {4.2.1}Detailed Description}{6}{subsubsection.4.2.1}
+\contentsline {subsubsection}{\numberline {4.2.2}Function Documentation}{6}{subsubsection.4.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.1}addDangerousArea()}{6}{paragraph.4.2.2.1}
+\contentsline {paragraph}{\numberline {4.2.2.2}DangerousAreaCheck()}{7}{paragraph.4.2.2.2}
+\contentsline {paragraph}{\numberline {4.2.2.3}distance()}{7}{paragraph.4.2.2.3}
+\contentsline {subsection}{\numberline {4.3}Route.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}py File Reference}{7}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}Detailed Description}{8}{subsubsection.4.3.1}
+\contentsline {section}{Index}{9}{section*.10}
