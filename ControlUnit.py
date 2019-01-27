@@ -1,15 +1,15 @@
 ## @file ControlUnit.py
 #  @author Ather Hassan, Chris Vishnu, Mostafa Mohsen, Ryan Woodard
-#  @brief This unit controls all the checks that are run to ensure that a truck is on the correct route and only operating during the correct times
+#  @brief This unit controls all functions to ensure safety of the vehicles
 #  @date 2019/01/27
 import csv
 import dangerousArea
 import datetime
 import math
-#import route.py
-## Test Comment plz work or 
-## testing testing
-## @brief 
+import route
+## @brief Runs all the checks that are needed to ensure that a truck is on the correct route and only operating during the correct times
+# @details If a truck is moving during the weekend or when the driver is not in the truck, it will alert the authorities and call for the gps to stay on. If a truck is moving too far outside the
+# normalized route, it will send an alert to the company operators. If a truck is moving 
 class gps():
     def __init__(self):
         # should read this from file
