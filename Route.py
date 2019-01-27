@@ -8,12 +8,11 @@
 #  @param lat This variable is the list of latitude values of each point on the route
 #  @param long This variable is the list of longitude values of each point on the route
 #  @param weight This variable holds the number of routes that have been averaged together so far
-#  @param lat This variable is the list of longitude values of each point on the route
 #  @param routnum This variable indicates which route is to be created as an object and updated
 class route:
 
     ## @brief this is the initializer method
-    def __init__(self, DeviceSerial, lat, long, weight, time, routnum):
+    def __init__(self, DeviceSerial, lat, long, weight, routnum):
         self.id = DeviceSerial
         self.lat = lat
         self.long = long
@@ -72,13 +71,12 @@ def main():
     f = open(fname, "r")
     lines = f.readlines()
     froute = 0
-    time = 0
     id = 0
-    r1 = route(id, (lines[froute]).split(), (lines[froute + 1]).split(), int(lines[froute + 2]), time, froute)
-    recentRout = route(id, [1,2,3,4,5,6,7,8,9,10], [10,9,8,7,6,5,4,3,2,1], 1, time, 0)
-    #r1.avg(fname, recentRout)
+    r1 = route(id, (lines[froute]).split(), (lines[froute + 1]).split(), int(lines[froute + 2]), froute)
+    recentRout = route(id, [1,2,3,4,5,6,7,8,9,10], [10,9,8,7,6,5,4,3,2,1], 1, 0)
+    r1.avg(fname, recentRout)
     print(r1.getdata())
     f.close()
     return r1
 
-#main()
+main()
