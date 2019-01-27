@@ -76,8 +76,9 @@ def main():
     id = 0
     r1 = route(id, (lines[froute]).split(), (lines[froute + 1]).split(), int(lines[froute + 2]), time, froute)
     recentRout = route(id, [1,2,3,4,5,6,7,8,9,10], [10,9,8,7,6,5,4,3,2,1], 1, time, 0)
-    r1.avg(fname, recentRout)
+    #r1.avg(fname, recentRout)
     print(r1.getdata())
     f.close()
+    return r1
 
 #main()
