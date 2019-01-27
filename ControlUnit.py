@@ -1,9 +1,14 @@
+## @file ControlUnit.py
+#  @author Ather Hassan, Chris Vishnu, Mostafa Mohsen, Ryan Woodard
+#  @brief This unit controls all the checks that are run to ensure that a truck is on the correct route and only operating during the correct times
+#  @date 2019/01/27
 import csv
 import dangerousArea
 import datetime
 import math
 #import route.py
 ## Test Comment plz work or ill end it all right here i swear to god git
+## @brief 
 class gps():
     def __init__(self):
         # should read this from file
@@ -20,16 +25,15 @@ class gps():
         if (dangerousArea.DangerousAreaCheck(long,lat)):
             print("Warning, entering dangerous area")
         # on route check
-    def OnTrack(tupleThing):
+    def OnTrack(self, routeNumber):
         longList = [1,2,3,4]
         latList = [4,3,2,1]
         i = 0
-        while i < len(longList):
+        for i in range (len(longList)):
             if distance(longList[i]-long, latList[i]-lat, 1):
                 print("good")
             else:
                 print("not good")
-            i+=1
     def triggered(long, lat, lastLong, lastLat):
         dx = lastLong - long
         dy = lastLat - lat
